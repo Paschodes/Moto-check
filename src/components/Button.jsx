@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-const Button = ({ children, onclick }) => {
-  return <Btn onClick={onclick}>{children}</Btn>;
+const Button = ({ children, onClick }) => {
+  return <Btn onClick={onClick}>{children}</Btn>;
 };
 
 export default Button;
